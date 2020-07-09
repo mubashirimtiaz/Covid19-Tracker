@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Card, Chart, CountryPicker, Navbar } from "./components";
+import { Card, Chart, CountryPicker, Navbar, Footer } from "./components";
 import { fetchData } from "./api";
 import styles from "./App.module.css";
 
@@ -31,6 +31,7 @@ export default class App extends Component {
         <Card data={data} />
         <CountryPicker handleCountyChange={this.handleCountyChange} />
         <Chart data={data} country={country} />
+        <Footer />
       </div>
     );
   }
