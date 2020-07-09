@@ -1,0 +1,33 @@
+.card {
+  box-shadow: 1px 1px 8px #aaaaaa;
+  border: none !important;
+}
+.card.infected {
+  border-top: 8px solid #ffc107 !important;
+}
+.card.recovered {
+  border-top: 8px solid #28a745 !important;
+}
+.card.deaths {
+  border-top: 8px solid #dc3545 !important;
+}
+.card-header {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px #000000;
+}
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #aaaaaa;
+}
+.card-text {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.card-footer p {
+  font-size: 1.1rem;
+}
+.card-footer > p > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
