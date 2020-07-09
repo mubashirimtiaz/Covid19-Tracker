@@ -6,7 +6,7 @@ const Navbar = () => {
       style={{ boxShadow: "1px 1px 8px #aaaaaa" }}
       className="nav justify-content-center bg-light py-3 mb-5"
     >
-      <img style={{ height: "60px" }} src={logo} alt="logo" />
+      <img style={{ height: "50px" }} src={logo} alt="logo" />
       {/* <li className="nav-item">
         <a className="nav-link active" href="#">
           Active link

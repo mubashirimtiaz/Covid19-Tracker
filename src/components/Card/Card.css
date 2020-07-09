@@ -1,6 +1,7 @@
 .card {
   box-shadow: 1px 1px 8px #aaaaaa;
   border: none !important;
+  margin: 10px 0;
 }
 .card.infected {
   border-top: 8px solid #ffc107 !important;
@@ -25,7 +26,8 @@
   font-weight: bold;
 }
 .card-footer p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .card-footer > p > span {
   font-size: 1.2rem;

@@ -11,7 +11,7 @@ const Card = ({ data }) => {
           <div className="card-header">
             <span>Infected</span>
           </div>
-          <div className="card-body">
+          <div className="card-body py-4">
             <div className="card-title text-muted">
               <CountUp
                 start={0}
@@ -34,7 +34,7 @@ const Card = ({ data }) => {
           <div className="card-header">
             <span>Recovered</span>
           </div>
-          <div className="card-body">
+          <div className="card-body py-4">
             <div className="card-title text-muted">
               <CountUp
                 start={0}
@@ -57,7 +57,7 @@ const Card = ({ data }) => {
           <div className="card-header">
             <span>Deaths</span>
           </div>
-          <div className="card-body">
+          <div className="card-body py-4">
             <div className="card-title text-muted">
               <CountUp
                 start={0}

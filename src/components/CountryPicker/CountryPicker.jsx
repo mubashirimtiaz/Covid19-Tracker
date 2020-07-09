@@ -18,7 +18,11 @@ const CountryPicker = ({ handleCountyChange }) => {
       <div className="row">
         <div className="col-md-5 m-auto">
           <div className="form-group">
-            <label htmlFor="country" className="font-weight-bold">
+            <label
+              htmlFor="country"
+              className="font-weight-bold"
+              style={{ fontSize: "1.2rem" }}
+            >
               Select Country
             </label>
             <select
