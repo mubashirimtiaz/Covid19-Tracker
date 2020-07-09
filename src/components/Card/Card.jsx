@@ -80,7 +80,7 @@ const Card = ({ data }) => {
     </div>
   ) : (
     <div className="d-flex justify-content-center align-items-center my-5">
-      <p className="display-4 mt-3">Loading...</p>
+      <div className="loader"></div>
     </div>
   );
 };
