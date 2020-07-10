@@ -5,7 +5,6 @@ import { useState } from "react";
 import { Line, Bar } from "react-chartjs-2";
 const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   const [dailyData, setDailyData] = useState([]);
-  // const [check, setCheck] = useState(false);
 
   useEffect(() => {
     // setCheck(true);
@@ -16,6 +15,9 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
     getDailyData();
   }, []);
   console.log(confirmed, recovered, deaths, country);
+  if (country === "Global") {
+    country = undefined;
+  }
 
   const lineChart = (
     <Line
