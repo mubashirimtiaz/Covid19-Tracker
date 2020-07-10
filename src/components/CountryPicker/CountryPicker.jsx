@@ -9,7 +9,7 @@ const CountryPicker = ({ handleCountyChange }) => {
     setCheck(true);
     const getCountry = async () => {
       const data = await fetchCountry();
-      setCountries(data);
+      setCountries(["Global", ...data]);
     };
     getCountry();
   }, [check]);
@@ -26,12 +26,10 @@ const CountryPicker = ({ handleCountyChange }) => {
               Select Country
             </label>
             <select
-              value=""
-              className="form-control shadow-sm"
+              className="form-control"
               id="country"
               onChange={(e) => handleCountyChange(e.target.value)}
             >
-              <option value="global">Global</option>
               {countries.map((country, i) => (
                 <option key={i} value={country}>
                   {country}

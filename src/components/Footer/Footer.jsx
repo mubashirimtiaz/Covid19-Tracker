@@ -16,7 +16,7 @@ const Footer = () => {
       <div>
         <span>Github Repo:</span>{" "}
         <a href="https://github.com/mubashirimtiaz/Covid19-Tracker">
-          https://github.com/mubashirimtiaz/Covid19-Tracker
+          https://github.com/mubashirimtiaz
         </a>
       </div>
     </div>
