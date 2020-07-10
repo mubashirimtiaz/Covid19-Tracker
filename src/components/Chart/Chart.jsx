@@ -60,7 +60,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   ) : null;
 
   return dailyData.length ? (
-    <div className="container mb-3">{country ? barChart : lineChart}</div>
+    <div className="container my-5">{country ? barChart : lineChart}</div>
   ) : (
     <div className="d-flex justify-content-center align-items-center my-5">
       {/* <p className="display-4 mt-3">Loading...</p> */}

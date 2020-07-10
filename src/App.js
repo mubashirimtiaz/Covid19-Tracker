@@ -28,8 +28,8 @@ export default class App extends Component {
     return (
       <div className={styles.container}>
         <Navbar />
-        <Card data={data} />
         <CountryPicker handleCountyChange={this.handleCountyChange} />
+        <Card data={data} />
         <Chart data={data} country={country} />
         <Footer />
       </div>
