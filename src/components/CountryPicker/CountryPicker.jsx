@@ -31,6 +31,7 @@ const CountryPicker = ({ handleCountyChange }) => {
               id="country"
               onChange={(e) => handleCountyChange(e.target.value)}
             >
+              <option value="global">Global</option>
               {countries.map((country, i) => (
                 <option key={i} value={country}>
                   {country}
