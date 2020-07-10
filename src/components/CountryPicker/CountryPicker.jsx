@@ -26,7 +26,7 @@ const CountryPicker = ({ handleCountyChange }) => {
               Select Country
             </label>
             <select
-              className="form-control"
+              className="form-control shadow-sm"
               id="country"
               onChange={(e) => handleCountyChange(e.target.value)}
             >
