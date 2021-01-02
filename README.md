@@ -1,3 +1,7 @@
+## Application Url
+
+link: http://covid19-tracker-webapp.surge.sh/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
